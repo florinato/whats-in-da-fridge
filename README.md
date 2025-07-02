@@ -1,3 +1,33 @@
+
+## 🍳 What's in da Fridge?
+
+**What's in da Fridge?** is a playful Farcaster Mini App designed to turn your leftover ingredients into quick, fun recipe suggestions. It features a cartoon-style fridge that you can interact with: open the fridge door, view your ingredients, and get cooking ideas based on what you have.
+
+The app offers a demo mode for users who haven't connected their wallet yet, and unlocks persistent personal fridges when a wallet is connected. Ingredients are categorized and displayed inside a beautifully animated fridge UI, with sounds and micro-interactions that make the experience feel alive.
+
+It's perfect for:
+- Degens who love to cook (or at least pretend to).
+- Users looking for a fun, onchain-native way to manage ingredients.
+- Anyone exploring how creative Farcaster Frames can be.
+
+### 🔮 Upcoming Features
+
+- **OpenAI-powered recipe generation**: Instead of only predefined recipes, the app will use OpenAI to suggest new meals based on whatever weird (or normal) combination of ingredients you add. AI chef incoming. 👨‍🍳
+  
+- **Redis-based notification system**: With Redis and webhook integration, connected users will receive onchain-native notifications when new recipes, features, or personalized content becomes available. This enables a smarter, more interactive experience.
+
+- **Ingredient memory per wallet**: Users will soon be able to permanently store and retrieve their fridge contents via wallet-based storage (e.g., via Frames, or custom backend).
+
+- **Social recipe sharing**: Share your fridge or your best recipe combo directly on Farcaster. Let others cook your degenerate creations.
+
+Built using:
+- [MiniKit](https://docs.base.org/builderkits/minikit/overview) for seamless Farcaster integration
+- [OnchainKit](https://docs.base.org/builderkits/onchainkit/getting-started) for metadata and account association
+- [Base](https://base.org) for onchain logic
+- [Vercel](https://vercel.com) for blazing fast deployment
+
+🌈 This is just the beginning — more degen kitchen experiments coming soon!
+
 # MiniKit Template
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-onchain --mini`](), configured with:
